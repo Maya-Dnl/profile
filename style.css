@@ -2,12 +2,18 @@ body {
   background-color: white;
   color : #7A9D54;
   font-family :'Merriweather', serif;
-  font-size: 17px;
+  font-size: 20px;
   text-align: center;
   line-height: 2.5;
 }
 
-h1, h2 {
+.haut-de-page h1 {
+  text-align: center;
+  font-size: 45px;
+  color : #8C3333;
+}
+
+h2 {
   color : #8C3333;
 }
 
@@ -24,6 +30,15 @@ a:hover {
   justify-content: center;
   margin: 40px 400px 30px 400px;
   padding: 20px 20px 20px 20px;
+}
+
+.first-pic {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: none;
+  width: 100%;
+  height: 400px;
 }
 
 .my-pictures {
