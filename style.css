@@ -1,0 +1,63 @@
+body {
+  background-color: white;
+  color : #7A9D54;
+  font-family :'Merriweather', serif;
+  font-size: 17px;
+  text-align: center;
+  line-height: 2.5;
+}
+
+h1, h2 {
+  color : #8C3333;
+}
+
+a {
+  color : #7A9D54;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.presentation .follow-my-travels {
+  justify-content: center;
+  margin: 40px 400px 30px 400px;
+  padding: 20px 20px 20px 20px;
+}
+
+.my-pictures {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.pic-element {
+  width: 400;
+  height: 300px;
+  border: solid 2px;
+  border-radius: 30px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
